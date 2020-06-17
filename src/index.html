@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Webpack</title>
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Webpack</title>
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
 </head>
 <body>
-    <h1>Hello</h1>
-    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  <div class="page">
+    <header class="header">
+      <nav class="navigation navigation__main">
+        <a href="http://localhost:8080/">NewsAnalyzer</a>
+        <a href="#">Главная</a>
+        <a href="#">О проекте</a>
+      </nav>
+      <h1 class="header__title">Что в мире творится?</h1>
+      <p class="header__description">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
+      <input type="text" class="header__input" placeholder="Политика">
+      <button class="button button__header">Искать</button>
+    </header>
+    <main class="content">
+      <section class="results">
+      </section>
+
+      <section class="about">
+      </section>
+    </main>
+    <footer class="footer">
+    </footer>
+  </div>
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 </html>
