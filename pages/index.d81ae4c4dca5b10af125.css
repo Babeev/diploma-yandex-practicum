@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Roboto';
-  src: url(./fonts/Roboto-Regular.woff) format("woff");
+  src: url(/src/fonts/Roboto-Regular.woff) format("woff");
 }
 @font-face {
   font-family: 'RobotoSlab';
-  src: url(./fonts/RobotoSlab-Regular.woff) format("woff");
+  src: url(/src/fonts/RobotoSlab-Regular.woff) format("woff");
 }
 .page {
   background: #E5E5E5;
@@ -107,7 +107,7 @@
 }
 .header {
     max-width: 320px;
-    background-image: url(./src/images/header__background.jpg);
+    background-image: url(/src/images/header__background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
