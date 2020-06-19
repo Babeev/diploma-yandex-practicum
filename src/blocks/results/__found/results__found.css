@@ -1,0 +1,4 @@
+.results__found {
+    display: flex;
+    flex-direction: column;
+}

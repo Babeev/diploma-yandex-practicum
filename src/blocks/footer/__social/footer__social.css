@@ -1,0 +1,8 @@
+.footer__social {
+    grid-area: links;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70px;
+    margin: 22px 16px 0 0;
+}

@@ -1,0 +1,12 @@
+.navigation__main-link {
+  display: block;
+  height: 33px;
+  color: #FFF;
+  text-decoration: none;
+  margin: auto 0;
+  font-family: Roboto;
+}
+.navigation__main-link:hover {
+  box-sizing: border-box;
+  border-bottom: solid 2px #FFF;
+}

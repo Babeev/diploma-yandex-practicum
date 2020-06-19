@@ -1,0 +1,36 @@
+.header__input {
+  width: 288px;
+  height: 56px;
+  background: #FFF;
+  border: 1px solid #D1D2D6;
+  box-sizing: border-box;
+  backdrop-filter: blur(100px);
+  border-radius: 100px;
+  padding: 16px;
+}
+.header__input::placeholder {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 22px;
+  color: #B6BCBF;
+}
+
+.header__input:focus {
+  outline: none;
+  width: 288px;
+  height: 56px;
+  background: #FFF;
+  border: 1px solid #D1D2D6;
+  box-sizing: border-box;
+  backdrop-filter: blur(100px);
+  border-radius: 100px;
+}
+.header__input::placeholder:focus {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 22px;
+  color: #B6BCBF;
+  position: relative;
+  left: 16px;
+
+}

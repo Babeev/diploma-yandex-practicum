@@ -1,0 +1,7 @@
+.navigation__main-link_logo {
+    font-family: RobotoSlab;
+    font-weight: 600;
+}
+.navigation__main-link_logo:hover {
+    border-bottom: none;
+}

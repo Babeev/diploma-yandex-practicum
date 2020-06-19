@@ -1,0 +1,11 @@
+.results__link {
+  display: block;
+  margin: 0 auto 36px auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  text-decoration: none;
+}

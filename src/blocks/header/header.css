@@ -1,1 +1,15 @@
-@import 
+@import url('../container/container.css');
+@import url('../navigation/navigation.css');
+@import url('../navigation/__main/navigation__main.css');
+@import url('__title/header__title.css');
+@import url('__description/header__description.css');
+@import url('__input/header__input.css');
+@import url('../button/button.css');
+@import url('../button/__header/button__header.css');
+
+.header {
+    max-width: 320px;
+    background-image: url('../../images/header__background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
