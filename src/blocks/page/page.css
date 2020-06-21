@@ -8,6 +8,7 @@
 }
 .page {
   background: #E5E5E5;
-  margin: 0 auto;
-  max-width: 320px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }

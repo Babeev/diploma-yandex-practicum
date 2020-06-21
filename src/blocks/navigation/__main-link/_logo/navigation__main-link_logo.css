@@ -1,7 +1,23 @@
 .navigation__main-link_logo {
-    font-family: RobotoSlab;
-    font-weight: 600;
+  margin: 0;
+  font-family: RobotoSlab;
+  font-weight: 600;
 }
 .navigation__main-link_logo:hover {
-    border-bottom: none;
+  border-bottom: none;
+}
+
+@media screen and (max-width: 768px) {
+.navigation__main-link_logo {
+  padding: 22px 0 0 40px;
+  font-size: 20px;
+  line-height: 24px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.navigation__main-link_logo {
+  padding: 16px 0 0 16px;
+  font-size: 16px;
+}
 }

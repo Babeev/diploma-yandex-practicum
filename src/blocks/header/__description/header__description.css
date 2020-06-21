@@ -3,7 +3,21 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
+  color: #FFF;
+}
+
+@media screen and (max-width: 768px) {
+.header__description {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 24px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.header__description {
+  margin-bottom: 64px;
   font-size: 20px;
   line-height: 26px;
-  color: #FFF;
+}
 }

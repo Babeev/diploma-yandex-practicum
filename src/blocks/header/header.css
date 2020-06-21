@@ -8,8 +8,23 @@
 @import url('../button/__header/button__header.css');
 
 .header {
-    max-width: 320px;
-    background-image: url('../../images/header__background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+  background-image: url('../../images/background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+.header {
+  max-height: 400px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.header {
+  min-height: 536px;
+  background-image: url('../../images/background320.jpg');
+}
 }

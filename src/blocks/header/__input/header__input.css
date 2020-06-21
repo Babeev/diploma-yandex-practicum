@@ -1,5 +1,5 @@
 .header__input {
-  width: 288px;
+  width: 450px;
   height: 56px;
   background: #FFF;
   border: 1px solid #D1D2D6;
@@ -7,6 +7,7 @@
   backdrop-filter: blur(100px);
   border-radius: 100px;
   padding: 16px;
+  position: relative;
 }
 .header__input::placeholder {
   font-family: Roboto;
@@ -33,4 +34,11 @@
   position: relative;
   left: 16px;
 
+}
+@media screen and (max-width: 480px) {
+.header__input {
+  width: 288px;
+  height: 56px;
+  padding: 16px;
+}
 }
