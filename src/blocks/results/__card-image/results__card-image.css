@@ -1,6 +1,6 @@
 .results__card-image {
   border-radius: 8px 8px 0 0;
-  width: 288px;
+  width: 100%;
   height: 196px;
   Background-size: contain;
 }

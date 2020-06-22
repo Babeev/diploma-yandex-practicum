@@ -1,9 +1,15 @@
 @import url('./__avatar/about__avatar.css');
+@import url('./__texts/about__texts.css');
 @import url('./__title/about__title.css');
 @import url('./__description/about__description.css');
 
 .about {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background: #FFF;
+}
+@media screen and (max-width: 500px) {
+.about {
+  flex-direction: column;
+}
 }
