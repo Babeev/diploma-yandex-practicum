@@ -1,17 +1,20 @@
 .header__title {
-  max-width: 385px;
-  margin: 30px auto 16px 0;
+  margin: 80px auto 32px 0;
   font-family: RobotoSlab;
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
-  line-height: 40px;
+  font-size: 60px;
+  line-height: 64px;
   color: #FFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 .header__title {
-  margin-top: 40px;
+  max-width: 385px;
+  margin: 40px auto 16px 0;
+  font-size: 36px;
+  line-height: 40px;
+  color: #FFF;
 }
 }
 

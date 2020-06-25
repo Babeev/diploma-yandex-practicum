@@ -16,6 +16,5 @@
 @import url('../button/__results/button__results.css');
 
 .results {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
 }

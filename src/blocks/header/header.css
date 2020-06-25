@@ -9,16 +9,17 @@
 
 .header {
   width: 100%;
-  min-height: 400px;
-  background-image: url('../../images/background.jpg');
+  max-height: 576px;
+  background-image: url('../../images/background1440.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 .header {
   max-height: 400px;
+  background-image: url('../../images/background.jpg');
 }
 }
 

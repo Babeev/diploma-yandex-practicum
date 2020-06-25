@@ -7,9 +7,8 @@
   border-bottom: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 .navigation__main-link_logo {
-  padding: 22px 0 0 40px;
   font-size: 20px;
   line-height: 24px;
 }
@@ -17,7 +16,6 @@
 
 @media screen and (max-width: 480px) {
 .navigation__main-link_logo {
-  padding: 16px 0 0 16px;
   font-size: 16px;
 }
 }

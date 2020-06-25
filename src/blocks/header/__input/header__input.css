@@ -1,6 +1,6 @@
 .header__input {
-  width: 450px;
-  height: 56px;
+  width: 600px;
+  height: 64px;
   background: #FFF;
   border: 1px solid #D1D2D6;
   box-sizing: border-box;
@@ -34,6 +34,12 @@
   position: relative;
   left: 16px;
 
+}
+@media screen and (max-width: 1024px) {
+.header__input {
+  width: 450px;
+  height: 56px;
+}
 }
 @media screen and (max-width: 480px) {
 .header__input {

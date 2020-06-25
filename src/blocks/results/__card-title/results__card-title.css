@@ -1,9 +1,16 @@
 .results__card-title {
-  margin: 16px 16px 10px 16px;
+  margin: 12px 24px 16px 24px;
   font-family: RobotoSlab;
   font-style: normal;
   font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #1A1B22;
+}
+@media screen and (max-width: 1024px) {
+.results__card-title {
+  margin: 16px 16px 10px 16px;
   font-size: 22px;
   line-height: 26px;
-  color: #1A1B22;
+}
 }

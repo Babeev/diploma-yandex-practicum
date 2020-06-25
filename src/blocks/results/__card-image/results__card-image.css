@@ -1,6 +1,11 @@
 .results__card-image {
   border-radius: 8px 8px 0 0;
   width: 100%;
-  height: 196px;
+  height: 272px;
   Background-size: contain;
+}
+@media screen and (max-width: 1024px) {
+.results__card-image {
+  height: 196px;
+}
 }

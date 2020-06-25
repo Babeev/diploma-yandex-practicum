@@ -1,7 +1,14 @@
 .about__texts {
-  margin: 40px 40px 48px 0;
+  max-width: 600px;
+  margin: 130px auto 48px 0;
+  padding-right: 40px;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 1170px) {
+.about__texts {
+  margin: 40px auto 48px 0;
+}
 }
 @media screen and (max-width: 500px) {
 .about__texts {

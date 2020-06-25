@@ -11,7 +11,7 @@
   border-bottom: solid 2px #FFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 .navigation__main-link {
   font-size: 18px;
   line-height: 24px;

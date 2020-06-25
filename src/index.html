@@ -19,7 +19,7 @@
     </nav>
     <div class="container">
       <h1 class="header__title">Что в мире творится?</h1>
-      <p class="header__description">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
+      <p class="header__description">Введите в&nbsp;поиске любую тему и&nbsp;узнайте, насколько популярной она была в&nbsp;новостях за&nbsp;прошедшую неделю.</p>
       <input type="text" class="header__input" placeholder="Политика">
       <button class="button button__header">Искать</button>
     </div>
@@ -74,7 +74,7 @@
         <img src="<%=require('./images/avatar.jpg')%>" class="about__avatar">
 
         <div class="about__texts">
-          <h2 class="about__title">Об авторе</h2>
+          <h2 class="title about__title">Об авторе</h2>
 
           <p class="about__description">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, 
             чем вы занимаетесь, какими технологиями разработки владеете. Также можно рассказать о процессе обучения 
@@ -84,21 +84,23 @@
     </section>
   </main>
   <footer class="footer">
-    <p class="footer__copyright">
-      &copy; 2019  Supersite
-    </p>
+    <div class="footer__container">
+      <p class="footer__copyright">
+        &copy; 2019  Supersite
+      </p>
 
-    <div class="navigation">
-      <ul class="navigation__footer">
-        <li class="navigation__list"><a href="/" class="navigation__footer-link">Главная</a></li>
-        <li class="navigation__list"><a href="/about.html" class="navigation__footer-link">О проекте</a></li>
-        <li class="navigation__list"><a href="/about.html" class="navigation__footer-link">Яндекс.Практикум</a></li>
-      </ul>
-    </div>
-        
-    <div class="footer__social">
-      <a href="#"><img src="<%=require('./images/github.svg')%>" alt="Гитхаб" class="footer__social-link"></a>
-      <a href="#"><img src="<%=require('./images/facebook.svg')%>" alt="Фейсбук" class="footer__social-link"></a>
+      <div class="navigation navigation__footer">
+        <ul class="navigation__footer">
+          <li class="navigation__list"><a href="/" class="navigation__footer-link">Главная</a></li>
+          <li class="navigation__list"><a href="/about.html" class="navigation__footer-link">О проекте</a></li>
+          <li class="navigation__list"><a href="/about.html" class="navigation__footer-link">Яндекс.Практикум</a></li>
+        </ul>
+      </div>
+          
+      <div class="footer__social">
+        <a href="#"><img src="<%=require('./images/github.svg')%>" alt="Гитхаб" class="footer__social-link"></a>
+        <a href="#"><img src="<%=require('./images/facebook.svg')%>" alt="Фейсбук" class="footer__social-link"></a>
+      </div>
     </div>
   </footer>
   <script src="<%= htmlWebpackPlugin.files.js %>"></script>
