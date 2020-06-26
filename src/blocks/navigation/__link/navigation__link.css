@@ -1,4 +1,4 @@
-.navigation__main-link {
+.navigation__link {
   display: block;
   height: 33px;
   color: #FFF;
@@ -6,20 +6,20 @@
   margin: auto 0;
   font-family: Roboto;
 }
-.navigation__main-link:hover {
+.navigation__link:hover {
   box-sizing: border-box;
   border-bottom: solid 2px #FFF;
 }
 
 @media screen and (max-width: 1024px) {
-.navigation__main-link {
+.navigation__link {
   font-size: 18px;
   line-height: 24px;
 }
 }
 
 @media screen and (max-width: 480px) {
-.navigation__main-link {
+.navigation__link {
   font-size: 16px;
 }
 }

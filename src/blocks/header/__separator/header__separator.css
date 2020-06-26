@@ -1,0 +1,6 @@
+.header__separator {
+  margin: 0 auto;
+  size: 3px;
+  max-width: 1440px;
+  border-color:  rgba(168, 168, 168, 0.2);
+}

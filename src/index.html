@@ -4,19 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Webpack</title>
+  <title>Diploma Frontend</title>
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
   <link rel="icon" href="<%=require('./images/favicon.jpg')%>" type="image/x-icon">
 </head>
 <body class="page">
   <header class="header">
     <nav class="navigation">
-      <a href="/" class="navigation__main-link navigation__main-link_logo">NewsAnalyzer</a>
-      <ul class="navigation__main">
-        <li class="navigation__list"><a href="/" class="navigation__main-link">Главная</a></li>
-        <li class="navigation__list"><a href="/about.html" class="navigation__main-link">О проекте</a></li>
+      <a href="/" class="navigation__link navigation__link_logo">NewsAnalyzer</a>
+      <ul class="navigation__container">
+        <li class="navigation__list"><a href="/" class="navigation__link">Главная</a></li>
+        <li class="navigation__list"><a href="/about.html" class="navigation__link">О проекте</a></li>
       </ul>
     </nav>
+    <hr class="header__separator">
     <div class="container">
       <h1 class="header__title">Что в мире творится?</h1>
       <p class="header__description">Введите в&nbsp;поиске любую тему и&nbsp;узнайте, насколько популярной она была в&nbsp;новостях за&nbsp;прошедшую неделю.</p>

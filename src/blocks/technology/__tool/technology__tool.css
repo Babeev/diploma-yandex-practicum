@@ -1,0 +1,14 @@
+.technology__tool {
+  margin: 0;
+  padding: 0 60px 0 0;
+}
+
+.technology__tool:last-child {
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+.technology__tool {
+  padding: 0;
+}
+}

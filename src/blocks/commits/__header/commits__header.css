@@ -1,0 +1,14 @@
+.commits__header {
+  max-width: 1160px;
+  display: flex;
+  padding: 0 40px;
+  margin: 72px auto 64px auto;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+.commits__header {
+  padding: 0 16px;
+  margin: 32px auto 16px auto;
+}
+}

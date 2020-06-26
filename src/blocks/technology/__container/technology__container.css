@@ -1,0 +1,18 @@
+.technology__container {
+  max-width: 1160px;
+  padding: 90px 40px 0 40px;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+.technology__container {
+  flex-direction: column;
+}
+}
+
+@media screen and (max-width: 480px) {
+.technology__container {
+  padding: 32px 16px 0 16px;
+}
+}

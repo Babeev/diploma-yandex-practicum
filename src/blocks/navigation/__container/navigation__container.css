@@ -1,8 +1,8 @@
-@import url('../__main-link/navigation__main-link.css');
+@import url('../__link/navigation__link.css');
 @import url('../__list/navigation__list.css');
-@import url('../__main-link/_logo/navigation__main-link_logo.css');
+@import url('../__link/_logo/navigation__link_logo.css');
 
-.navigation__main {
+.navigation__container {
   padding: 0;
   margin: 0;
   display: flex;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 480px) {
-.navigation__main {
+.navigation__container {
   width: 150px;
 }
 }

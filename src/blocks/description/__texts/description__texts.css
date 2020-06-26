@@ -1,0 +1,24 @@
+.description__texts {
+  max-width: 985px;
+  margin: 0 auto 0 0;
+  padding: 0 40px 94px 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+}
+
+@media screen and (max-width: 1024px) {
+.description__texts {
+  margin: 0;
+  padding: 0 40px 56px 40px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.description__texts {
+  padding: 0 16px 40px 16px;
+}
+}

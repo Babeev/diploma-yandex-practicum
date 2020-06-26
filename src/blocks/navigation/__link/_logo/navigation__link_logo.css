@@ -1,21 +1,21 @@
-.navigation__main-link_logo {
+.navigation__link_logo {
   margin: 0;
   font-family: RobotoSlab;
   font-weight: 600;
 }
-.navigation__main-link_logo:hover {
+.navigation__link_logo:hover {
   border-bottom: none;
 }
 
 @media screen and (max-width: 1024px) {
-.navigation__main-link_logo {
+.navigation__link_logo {
   font-size: 20px;
   line-height: 24px;
 }
 }
 
 @media screen and (max-width: 480px) {
-.navigation__main-link_logo {
+.navigation__link_logo {
   font-size: 16px;
 }
 }

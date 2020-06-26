@@ -1,0 +1,12 @@
+.swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-image: url('../../../images/forward.jpg');
+  background-size: contain;
+  border: none; 
+  outline: none;
+  border-radius: 40px; 
+}
+.swiper-button-next::after {
+  display: none;
+}

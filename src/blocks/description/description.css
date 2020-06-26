@@ -1,0 +1,9 @@
+@import url('./__container/description__container.css');
+@import url('./__texts/description__texts.css');
+@import url('./__text/description__text.css');
+@import url('./__title/description__title.css');
+
+.description {
+  background: #fff;
+  width: 100%;
+}
