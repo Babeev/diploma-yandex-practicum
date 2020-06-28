@@ -10,6 +10,11 @@
   text-align: center;
   color: #1A1B22;
 }
+
+.commits__button:hover {
+  background: #fff;
+  opacity: 0.9;
+}
 @media screen and (max-width: 480px) {
 .commits__button {
   display: block;
