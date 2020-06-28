@@ -1,6 +1,6 @@
 .navigation__link {
   display: block;
-  height: 33px;
+  line-height: 56px;
   color: #FFF;
   text-decoration: none;
   margin: auto 0;
@@ -14,7 +14,6 @@
 @media screen and (max-width: 1024px) {
 .navigation__link {
   font-size: 18px;
-  line-height: 24px;
 }
 }
 

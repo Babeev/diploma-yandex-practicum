@@ -1,7 +1,7 @@
 @import url('../blocks/page/page.css');
+@import url('../blocks/navigation/navigation.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__nonbasic/header__nonbasic.css');
-@import url('../blocks/navigation/__link-nobasic/navigation__link-nobasic.css');
 @import url('../blocks/description/description.css');
 @import url('../blocks/technology/technology.css');
 @import url('../blocks/about/about.css');

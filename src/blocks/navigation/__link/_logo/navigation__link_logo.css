@@ -4,13 +4,13 @@
   font-weight: 600;
 }
 .navigation__link_logo:hover {
+  box-sizing: border-box;
   border-bottom: none;
 }
 
 @media screen and (max-width: 1024px) {
 .navigation__link_logo {
   font-size: 20px;
-  line-height: 24px;
 }
 }
 

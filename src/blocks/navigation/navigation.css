@@ -1,17 +1,25 @@
+@import url('./__container/navigation__container.css');
+@import url('./__link/navigation__link.css');
+@import url('./__link-nobasic/navigation__link-nobasic.css');
+@import url('./__list/navigation__list.css');
+@import url('./__link/_logo/navigation__link_logo.css');
+
 .navigation {
+  min-height: 56px;
   max-width: 1160px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 30px 40px 15px 40px;
+  padding: 0 40px;
 }
 @media screen and (max-width: 1024px) {
 .navigation {
-  padding: 22px 40px 10px 40px;
+  padding: 0 40px;
 }
 }
 @media screen and (max-width: 480px) {
 .navigation {
-  padding: 16px 16px 0 16px;
+  margin: 0;
+  padding: 0 16px;
 }
 }

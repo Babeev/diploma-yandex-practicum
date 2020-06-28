@@ -1,0 +1,12 @@
+@import url('./__navigation/statistics__navigation.css');
+@import url('./__navigation-current/statistics__navigation-current.css');
+@import url('./__navigation-main/statistics__navigation-main.css');
+@import url('./__content/statistics__content.css');
+@import url('./__title/statistics__title.css');
+@import url('./__data/statistics__data.css');
+@import url('./__count/statistics__count.css');
+
+.statistics {
+  width: 100%;
+  background: #fff;
+}
