@@ -3,6 +3,7 @@
   height: 40px;
   background-image: url('../../../images/forward.jpg');
   background-size: contain;
+  background-repeat: no-repeat;
   border: none; 
   outline: none;
   border-radius: 40px; 
