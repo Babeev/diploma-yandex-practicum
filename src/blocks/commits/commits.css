@@ -1,0 +1,21 @@
+@import url('./__header/commits__header.css');
+@import url('./__title/commits__title.css');
+@import url('./__link/commits__link.css');
+@import url('./__container/commits__container.css');
+@import url('./__date/commits__date.css');
+@import url('./__author/commits__author.css');
+@import url('./__avatar/commits__avatar.css');
+@import url('./__profile/commits__profile.css');
+@import url('./__name/commits__name.css');
+@import url('./__email/commits__email.css');
+@import url('./__text/commits__text.css');
+@import url('./__button/commits__button.css');
+
+.commits {
+  margin: 0 0 80px 0;
+}
+@media screen and (max-width: 480px) {
+.commits {
+  margin: 0;
+}
+}

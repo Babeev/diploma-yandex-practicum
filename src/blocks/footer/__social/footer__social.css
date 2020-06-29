@@ -1,0 +1,16 @@
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70px;
+  margin: auto 40px auto auto;
+}
+@media screen and (max-width: 480px) {
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70px;
+  margin: 25px 16px auto auto;
+}
+}

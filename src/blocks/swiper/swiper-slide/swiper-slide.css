@@ -1,0 +1,19 @@
+.swiper-slide {
+  background: #fff;
+  max-width: 400px;
+  max-height: 288px;
+  border-radius: 16px;
+}
+@media screen and (max-width: 900px) {
+.swiper-slide {
+  max-width: 336px;
+  max-height: 242px;
+}
+}
+
+@media screen and (max-width: 900px) {
+.swiper-slide {
+  max-width: 320px;
+  max-height: 264px;
+}
+}

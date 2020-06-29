@@ -1,0 +1,14 @@
+.technology__list {
+  list-style: none;
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+.technology__list {
+  margin: 40px auto;
+}
+}

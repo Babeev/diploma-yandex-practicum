@@ -1,0 +1,20 @@
+@import url('./__container/analytics__container.css');
+@import url('./__title/analytics__title.css');
+@import url('./__description/analytics__description.css');
+@import url('./__date/analytics__date.css');
+@import url('./__count/analytics__count.css');
+@import url('./__scale/analytics__scale.css');
+@import url('./__scale/_end/analytics__scale_end.css');
+@import url('./__scale-linear/analytics__scale-linear.css');
+@import url('./__scale-linear/_end/analytics__scale-linear_end.css');
+@import url('./__table/analytics__table.css');
+@import url('./__days/analytics__days.css');
+@import url('./__day/analytics__day.css');
+@import url('./__charts/analytics__charts.css');
+@import url('./__chart/analytics__chart.css');
+
+.analytics {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

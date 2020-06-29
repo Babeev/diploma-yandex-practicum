@@ -1,0 +1,18 @@
+.results__card {
+  width: 400px;
+  background: #FFF;
+  border-radius: 8px 8px 0 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+.results__card {
+  width: 224px;
+}
+}
+
+@media screen and (max-width: 530px) {
+.results__card {
+  width: 288px;
+}
+}

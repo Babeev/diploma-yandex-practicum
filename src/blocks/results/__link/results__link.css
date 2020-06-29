@@ -1,0 +1,15 @@
+.results__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+.results__link {
+  margin-top: 16px;
+}
+}

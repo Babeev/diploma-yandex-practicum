@@ -1,0 +1,7 @@
+@import url('../blocks/page/page.css');
+@import url('../blocks/navigation/navigation.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__nonbasic/header__nonbasic.css');
+@import url('../blocks/statistics/statistics.css');
+@import url('../blocks/analytics/analytics.css');
+@import url('../blocks/footer/footer.css');

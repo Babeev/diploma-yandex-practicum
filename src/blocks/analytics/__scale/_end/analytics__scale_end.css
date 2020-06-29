@@ -1,0 +1,9 @@
+.analytics__scale_end {
+  border: none;
+}
+
+@media screen and (max-width: 480px) {
+.analytics__scale_end {
+  display: none;
+}
+}

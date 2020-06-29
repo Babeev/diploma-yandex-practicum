@@ -1,0 +1,10 @@
+@import url('./__container/footer__container.css');
+@import url('../navigation/__footer/navigation__footer.css');
+@import url('../navigation/__footer-link/navigation__footer-link.css');
+@import url('./__social/footer__social.css');
+@import url('./__social-link/footer__social-link.css');
+@import url('./__copyright/footer__copyright.css');
+
+.footer {
+  background: #fff;
+}

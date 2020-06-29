@@ -1,0 +1,7 @@
+.navigation__link-nobasic {
+  color: #1A1B22;
+}
+.navigation__link-nobasic:hover {
+  box-sizing: border-box;
+  border-bottom: solid 2px #1A1B22;
+}

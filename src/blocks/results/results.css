@@ -1,0 +1,19 @@
+@import url('./__found/results__found.css');
+@import url('./__found-image/results__found-image.css');
+@import url('./__found-title/results__found-title.css');
+@import url('./__found-description/results__found-description.css');
+@import url('./__header/results__header.css');
+@import url('./__title/results__title.css');
+@import url('./__link/results__link.css');
+@import url('./__cards/results__cards.css');
+@import url('./__card/results__card.css');
+@import url('./__card-image/results__card-image.css');
+@import url('./__card-date/results__card-date.css');
+@import url('./__card-title/results__card-title.css');
+@import url('./__card-decscripton/results__card-decscripton.css');
+@import url('./__card-sourse/results__card-sourse.css');
+@import url('../button/__results/button__results.css');
+
+.results {
+    width: 100%;
+}

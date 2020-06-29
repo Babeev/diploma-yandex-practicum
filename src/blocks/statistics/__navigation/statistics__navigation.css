@@ -1,0 +1,16 @@
+.statistics__navigation {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 40px 40px 0 40px;
+}
+@media screen and (max-width: 900px) {
+.statistics__navigation {
+  padding: 32px 40px 0 40px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.statistics__navigation {
+  display: none;
+}
+}

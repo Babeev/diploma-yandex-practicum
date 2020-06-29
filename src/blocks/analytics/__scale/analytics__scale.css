@@ -1,0 +1,6 @@
+.analytics__scale {
+  border-top: 1px solid #1A1B22;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+}
