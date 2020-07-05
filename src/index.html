@@ -23,6 +23,7 @@
       <p class="header__description">Введите в&nbsp;поиске любую тему и&nbsp;узнайте, насколько популярной она была в&nbsp;новостях за&nbsp;прошедшую неделю.</p>
       <input type="text" class="header__input" placeholder="Политика" required>
       <button class="button button__header">Искать</button>
+      <span class="header__err"></span>
     </div>
   </header>
   <main class="content">
@@ -30,43 +31,19 @@
       <i class="loader__preloader"></i>
       <p class="loader__text">Идет поиск новостей...</p>
     </section>
+    <section class="found">
+      <img src="<%=require('./images/not-found.svg')%>" alt="ничего не найдено" class="found__image">
+      <h2 class="found__title">Ничего не найдено</h2>
+      <p class="found__description"></p>
+    </section>
     <section class="results">
-      <div class="results__found">
-        <img src="<%=require('./images/not-found.svg')%>" alt="ничего не найдено" class="results__found-image">
-        <h2 class="results__found-title">Ничего не найдено</h2>
-        <p class="results__found-description">К сожалению по вашему запросу 
-          ничего не найдено.</p>
-      </div>
-
       <div class="results__header">
         <h2 class="title results__title">Результаты поиска</h2>
         <a href="analytics.html" class="results__link">Посмотреть аналитику &gt;</a>
       </div>
       
       <div class="results__cards">
-        <div class="results__card">
-          <img src="<%=require('./images/first.jpg')%>" alt="фотка" class="results__card-image">
-          <p class="results__card-date">2 августа, 2019</p>
-          <h3 class="results__card-title">Национальное достояние – парки</h3>
-          <p class="results__card-decscripton">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</p>
-          <p class="results__card-sourse">Лента.ру</p>
-        </div>
-
-        <div class="results__card">
-          <img src="<%=require('./images/second.jpg')%>" alt="фотка" class="results__card-image">
-          <p class="results__card-date">2 августа, 2019</p>
-          <h3 class="results__card-title">Национальное достояние – парки</h3>
-          <p class="results__card-decscripton">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</p>
-          <p class="results__card-sourse">Медуза</p>
-        </div>
-
-        <div class="results__card">
-          <img src="<%=require('./images/third.jpg')%>" alt="фотка" class="results__card-image">
-          <p class="results__card-date">2 августа, 2019</p>
-          <h3 class="results__card-title">Национальное достояние – парки</h3>
-          <p class="results__card-decscripton">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...</p>
-          <p class="results__card-sourse">Риа</p>
-        </div>
+        
       </div>
       <button class="button button__results">Показать еще</button>
     </section>

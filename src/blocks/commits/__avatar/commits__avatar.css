@@ -2,6 +2,7 @@
   margin: 0 16px 0 0;
   width: 64px;
   height: 64px;
+  border-radius: 1000px;
 }
 @media screen and (max-width: 900px) {
 .commits__avatar {
