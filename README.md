@@ -11,7 +11,7 @@
 ## Как скачать работу  
 Если не устанавливали, то скачайте и установите node.js и npm.  
 Далее:  
-git clone https://github.com/Babeev/diploma-yandex-practicum.git
+git clone https://github.com/Babeev/diploma-yandex-practicum.git  
 npm install  
 npm start  
 
