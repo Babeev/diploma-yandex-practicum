@@ -6,7 +6,7 @@ export class CommitCard {
   create(commit) {
     const url = commit.html_url;
     const link = commit.author.avatar_url;
-    const published = this.date(commit.commit.author.date, 'card');
+    const published = this.date.countDate(commit.commit.author.date);
     const name = commit.commit.author.name;
     const email = commit.commit.author.email;
     const descriptionText = commit.commit.message;

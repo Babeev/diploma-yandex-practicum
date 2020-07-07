@@ -4,7 +4,14 @@ import {button, searchInput, find, more, cardlist} from "./js/constants/constant
 
 find.onload();
 
-button.addEventListener('mousedown', function() {searchInput.submit()});
+button.addEventListener('mousedown', function() {
+  searchInput.submit()
+});
+document.addEventListener('keydown', function(event) {
+  if (event.key == 'Enter') {
+    searchInput.submit()
+  }
+});
 more.addEventListener('click', function() {
   cardlist.render();
 });

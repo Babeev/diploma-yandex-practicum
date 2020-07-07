@@ -6,7 +6,7 @@ export class Card {
     create(card) {
       const url = card.url;
       const link = card.urlToImage;
-      const published = this.date(card.publishedAt, 'card');
+      const published = this.date.countDate(card.publishedAt);
       const titleText = card.title;
       const descriptionText = card.description;
       const author = card.source.name;

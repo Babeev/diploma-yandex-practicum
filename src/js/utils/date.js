@@ -1,13 +1,15 @@
-export function date(time, type) {
-  const date = new Date(time);
-  const months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
-  const days = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
-  const year = date.getFullYear();
-  const month = months[date.getMonth()];
-  const day = days[date.getDay()];
-  if(type == 'card') {
-    return `${date.getDate()} ${month}, ${year}`;
-  } else {
-    return `${date.getDate()}, ${day}`;
+export class CustomDate {
+  constructor(today, weekAgo, months, days) {
+    this.today = today; 
+    this.weekAgo = weekAgo; 
+    this.months = months;
+    this.days = days;
+  }
+  countDate(time) {
+    this.date = new Date(time);
+    this.year = this.date.getFullYear();
+    this.month = this.months[this.date.getMonth()];
+    this.day = this.days[this.date.getDay()];
+    return `${this.date.getDate()} ${this.month}, ${this.year}`;
   }
 }
