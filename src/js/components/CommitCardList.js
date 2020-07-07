@@ -3,7 +3,7 @@ export class CommitCardList {
       this.container = container;
       this.cardClass = cardClass;
       this.dataStorage = dataStorage;
-      this.maxcards = 19;
+      this.maxcards = 20;
       this.start = 0;
     }
   
