@@ -1,6 +1,5 @@
 import {NewsApi} from "../modules/NewsApi.js";
 import {Find} from "../utils/find.js";
-import {date} from "../utils/date.js";
 import {Toggle} from "../utils/showMoreCards.js";
 import {Card} from "../components/NewsCard.js";
 import {CardList} from "../components/NewsCardList.js";
@@ -13,7 +12,7 @@ import {CommitCardList} from "../components/CommitCardList.js";
 import {Statistics} from "../components/Statistics.js";
 import {CustomDate} from "../utils/date.js";
 
-const url = 'https://praktikum.tk/news/v2/everything?';
+const url = NODE_ENV === 'development' ? 'https://praktikum.tk/news/v2/everything?' : 'https://praktikum.tk/news/v2/everything?';
 const key = '50cf0fdfceeb410f967a67f3a9a59e9f';
 const errorCustomText = 'К сожалению по вашему запросу ничего не найдено.';
 const days = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];

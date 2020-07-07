@@ -52,6 +52,7 @@ function check(length, result) {
     dataStorage.toStorage(result, 'commits');
     commitCardList.render();
     load.commits(false);
+    mySwiper.update();
   } else {
     dataStorage.clear();
   }
