@@ -1,6 +1,8 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/preloader/preloader.css');
+@import url('../blocks/found/found.css');
 @import url('../blocks/results/results.css');
+@import url('../blocks/toggle/toggle.css');
 @import url('../blocks/about/about.css');
 @import url('../blocks/footer/footer.css');

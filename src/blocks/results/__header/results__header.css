@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 480px) {
 .results__header {
-  padding: 0 16px;
+  padding: 32px 16px 0 16px;
   flex-direction: column;
 }
 }

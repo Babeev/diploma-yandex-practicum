@@ -1,0 +1,8 @@
+@import url('./__image/found__image.css');
+@import url('./__title/found__title.css');
+@import url('./__description/found__description.css');
+.found {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+}

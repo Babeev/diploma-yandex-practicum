@@ -1,7 +1,3 @@
-@import url('./__found/results__found.css');
-@import url('./__found-image/results__found-image.css');
-@import url('./__found-title/results__found-title.css');
-@import url('./__found-description/results__found-description.css');
 @import url('./__header/results__header.css');
 @import url('./__title/results__title.css');
 @import url('./__link/results__link.css');
@@ -14,6 +10,8 @@
 @import url('./__card-sourse/results__card-sourse.css');
 @import url('../button/__results/button__results.css');
 
+
 .results {
-    width: 100%;
+  width: 100%;
+  display: none;
 }

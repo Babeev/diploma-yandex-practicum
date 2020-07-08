@@ -5,6 +5,8 @@
 @import url('__title/header__title.css');
 @import url('__description/header__description.css');
 @import url('__input/header__input.css');
+@import url('./__err/header__err.css');
+@import url('./__err/_active/header__err_active.css');
 @import url('../button/button.css');
 @import url('../button/__header/button__header.css');
 @import url('../title/title.css');

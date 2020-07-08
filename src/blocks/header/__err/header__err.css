@@ -1,0 +1,13 @@
+.header__err {
+  font-family: Roboto;
+  color: red;
+  position: relative;
+  bottom: 100px;
+  padding-left: 18px;
+  display: none;
+}
+@media screen and (max-width: 480px) {
+.header__err {
+  bottom: 30px;
+}
+}
