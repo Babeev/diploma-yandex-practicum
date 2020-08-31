@@ -12,7 +12,7 @@ import {CommitCardList} from "../components/CommitCardList.js";
 import {Statistics} from "../components/Statistics.js";
 import {CustomDate} from "../utils/date.js";
 
-const url = 'http://newsapi.org/v2/everything?';
+const url = NODE_ENV === 'development' ? 'http://newsapi.org/v2/everything?' : 'https://nomoreparties.co/news/v2/everything?';
 const key = '50cf0fdfceeb410f967a67f3a9a59e9f';
 const errorCustomText = 'К сожалению по вашему запросу ничего не найдено.';
 const days = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
